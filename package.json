@@ -1,0 +1,63 @@
+{
+    "author": "michel.schanen@googlemail.com",
+    "dependencies": {
+        "enamel": "^1.2.3",
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "planet",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Planet",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "HourColor",
+            "MinuteColor",
+            "DateColor"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/moon",
+                    "name": "IMAGE_MOON",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/stars",
+                    "name": "IMAGE_STARS",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/earth",
+                    "name": "IMAGE_EARTH",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "05b0c454-6679-419e-8d85-20809104038e",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.7.0"
+}
